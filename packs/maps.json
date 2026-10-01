@@ -1,0 +1,95 @@
+{
+  "id": "maps",
+  "version": "0.1.0",
+  "license": "MIT",
+  "assets": [
+    {
+      "id": "map.pin",
+      "name": "Map pin",
+      "category": "map",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "map.pin",
+      "defaults": {
+        "size": 24
+      },
+      "tags": [
+        "map",
+        "pin"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    },
+    {
+      "id": "map.grid",
+      "name": "Map grid",
+      "category": "map",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "map.grid",
+      "defaults": {
+        "step": 80
+      },
+      "tags": [
+        "map",
+        "grid"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    },
+    {
+      "id": "map.route",
+      "name": "Route polyline",
+      "category": "map",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "map.route",
+      "defaults": {
+        "strokeWidth": 4
+      },
+      "tags": [
+        "map",
+        "route"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    },
+    {
+      "id": "map.compass",
+      "name": "Compass rose",
+      "category": "map",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "map.compass",
+      "defaults": {
+        "size": 72
+      },
+      "tags": [
+        "map",
+        "compass"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    }
+  ]
+}

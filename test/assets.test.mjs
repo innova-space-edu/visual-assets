@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { getAsset, resolveAsset, searchAssets } from "../src/index.js";
+import { getAsset, resolveAsset, searchAssets, recordAssetUsage, rankAssets } from "../src/index.js";
 
 test("resolves original parametric asset", function(){
   const a=getAsset("math.axes.cartesian");
@@ -18,4 +18,13 @@ test("technical and procedural packs resolve",()=>{
   assert.ok(getAsset("technical.dimension.linear"));
   assert.ok(getAsset("procedural.pattern.dots"));
   assert.equal(resolveAsset("procedural.pattern.dots",{seed:"abc"}).params.seed,"abc");
+});
+
+
+test("V4 semantic packs and adaptive usage are available",()=>{
+  assert.ok(getAsset("ui.card"));
+  assert.ok(getAsset("math.geometry.homothety"));
+  assert.ok(getAsset("biology.eye.cross-section"));
+  for(let i=0;i<5;i++)recordAssetUsage({assetId:"ui.card",kept:true,exported:true,edits:1});
+  assert.equal(rankAssets(["ui.card","icon.info"])[0].id,"ui.card");
 });

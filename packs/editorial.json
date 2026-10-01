@@ -1,0 +1,117 @@
+{
+  "id": "editorial",
+  "version": "0.1.0",
+  "license": "MIT",
+  "assets": [
+    {
+      "id": "layout.slide.title-content",
+      "name": "Title/content slide",
+      "category": "presentation",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "layout.slide",
+      "defaults": {
+        "variant": "title-content"
+      },
+      "tags": [
+        "presentation",
+        "slide"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    },
+    {
+      "id": "layout.poster.hero",
+      "name": "Hero poster",
+      "category": "poster",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "layout.poster",
+      "defaults": {
+        "variant": "hero"
+      },
+      "tags": [
+        "poster",
+        "layout"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    },
+    {
+      "id": "layout.page.document",
+      "name": "Document page",
+      "category": "document",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "layout.page",
+      "defaults": {
+        "margin": 56
+      },
+      "tags": [
+        "document",
+        "page"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    },
+    {
+      "id": "layout.page.educational",
+      "name": "Educational page",
+      "category": "education",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "layout.educationalPage",
+      "defaults": {
+        "margin": 56
+      },
+      "tags": [
+        "education",
+        "page"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    },
+    {
+      "id": "layout.table.basic",
+      "name": "Basic table",
+      "category": "data",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "layout.table",
+      "defaults": {
+        "headerRows": 1
+      },
+      "tags": [
+        "table",
+        "data"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": "biology",
+  "version": "0.1.0",
+  "license": "MIT",
+  "assets": [
+    {
+      "id": "biology.cell.basic",
+      "name": "Basic cell",
+      "category": "biology",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "biology.cell",
+      "defaults": {
+        "labels": true
+      },
+      "tags": [
+        "biology",
+        "cell"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    },
+    {
+      "id": "biology.dna.double-helix",
+      "name": "DNA double helix",
+      "category": "biology",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "biology.dna",
+      "defaults": {
+        "turns": 5
+      },
+      "tags": [
+        "biology",
+        "dna",
+        "genetics"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    },
+    {
+      "id": "biology.eye.cross-section",
+      "name": "Eye cross section",
+      "category": "biology/anatomy",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "biology.eye",
+      "defaults": {
+        "labels": true
+      },
+      "tags": [
+        "biology",
+        "eye",
+        "anatomy"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    },
+    {
+      "id": "biology.neuron",
+      "name": "Neuron",
+      "category": "biology",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "biology.neuron",
+      "defaults": {
+        "labels": true
+      },
+      "tags": [
+        "biology",
+        "neuron",
+        "nervous system"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    },
+    {
+      "id": "biology.heart.simple",
+      "name": "Heart schematic",
+      "category": "biology/anatomy",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "biology.heart",
+      "defaults": {
+        "labels": true
+      },
+      "tags": [
+        "biology",
+        "heart",
+        "anatomy"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    }
+  ]
+}

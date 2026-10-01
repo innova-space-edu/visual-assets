@@ -1,0 +1,103 @@
+{
+  "id": "typography",
+  "version": "0.1.0",
+  "license": "MIT",
+  "assets": [
+    {
+      "id": "typography.scale.default",
+      "name": "Default type scale",
+      "category": "typography",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "typography.scale",
+      "defaults": {
+        "caption": 12,
+        "body": 16,
+        "subtitle": 22,
+        "title": 36,
+        "display": 48
+      },
+      "tags": [
+        "typography",
+        "scale"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    },
+    {
+      "id": "typography.heading",
+      "name": "Heading style",
+      "category": "typography",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "typography.style",
+      "defaults": {
+        "size": 36,
+        "weight": 800
+      },
+      "tags": [
+        "typography",
+        "heading"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    },
+    {
+      "id": "typography.body",
+      "name": "Body style",
+      "category": "typography",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "typography.style",
+      "defaults": {
+        "size": 16,
+        "weight": 400,
+        "lineHeight": 1.5
+      },
+      "tags": [
+        "typography",
+        "body"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    },
+    {
+      "id": "typography.caption",
+      "name": "Caption style",
+      "category": "typography",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "typography.style",
+      "defaults": {
+        "size": 12,
+        "weight": 500
+      },
+      "tags": [
+        "typography",
+        "caption"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    }
+  ]
+}

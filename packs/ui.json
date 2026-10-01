@@ -1,0 +1,121 @@
+{
+  "id": "ui",
+  "version": "0.1.0",
+  "license": "MIT",
+  "assets": [
+    {
+      "id": "ui.card",
+      "name": "UI card",
+      "category": "ui",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "ui.card",
+      "defaults": {
+        "width": 280,
+        "height": 160,
+        "radius": 16
+      },
+      "tags": [
+        "ui",
+        "card"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    },
+    {
+      "id": "ui.button",
+      "name": "Button",
+      "category": "ui",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "ui.button",
+      "defaults": {
+        "label": "Button",
+        "variant": "primary"
+      },
+      "tags": [
+        "ui",
+        "button"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    },
+    {
+      "id": "ui.input",
+      "name": "Input field",
+      "category": "ui",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "ui.input",
+      "defaults": {
+        "placeholder": "Text"
+      },
+      "tags": [
+        "ui",
+        "input",
+        "form"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    },
+    {
+      "id": "ui.sidebar",
+      "name": "Sidebar",
+      "category": "ui",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "ui.sidebar",
+      "defaults": {
+        "width": 240
+      },
+      "tags": [
+        "ui",
+        "navigation"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    },
+    {
+      "id": "ui.badge",
+      "name": "Badge",
+      "category": "ui",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "ui.badge",
+      "defaults": {
+        "label": "Status"
+      },
+      "tags": [
+        "ui",
+        "badge"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    }
+  ]
+}

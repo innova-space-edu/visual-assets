@@ -1,0 +1,121 @@
+{
+  "id": "chemistry",
+  "version": "0.1.0",
+  "license": "MIT",
+  "assets": [
+    {
+      "id": "chemistry.bond.single",
+      "name": "Single bond",
+      "category": "chemistry",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "chemistry.bond",
+      "defaults": {
+        "order": 1
+      },
+      "tags": [
+        "chemistry",
+        "bond"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    },
+    {
+      "id": "chemistry.bond.double",
+      "name": "Double bond",
+      "category": "chemistry",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "chemistry.bond",
+      "defaults": {
+        "order": 2
+      },
+      "tags": [
+        "chemistry",
+        "bond"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    },
+    {
+      "id": "chemistry.periodic-cell",
+      "name": "Periodic table cell",
+      "category": "chemistry",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "chemistry.periodicCell",
+      "defaults": {
+        "symbol": "C",
+        "atomicNumber": 6,
+        "mass": 12.011
+      },
+      "tags": [
+        "chemistry",
+        "periodic table"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    },
+    {
+      "id": "chemistry.flask.erlenmeyer",
+      "name": "Erlenmeyer flask",
+      "category": "chemistry",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "chemistry.flask",
+      "defaults": {
+        "kind": "erlenmeyer"
+      },
+      "tags": [
+        "chemistry",
+        "lab",
+        "flask"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    },
+    {
+      "id": "chemistry.reaction.arrow",
+      "name": "Reaction arrow",
+      "category": "chemistry",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "chemistry.reactionArrow",
+      "defaults": {
+        "kind": "forward"
+      },
+      "tags": [
+        "chemistry",
+        "reaction",
+        "arrow"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    }
+  ]
+}
