@@ -1,0 +1,18 @@
+{
+  "version": "0.1.0",
+  "suite": "visual-assets",
+  "policy": {
+    "local_first": true,
+    "network_required": false,
+    "provenance_required": true,
+    "font_files_committed": false
+  },
+  "packs": [
+    {
+      "id": "core",
+      "path": "packs/core.json",
+      "version": "0.1.0",
+      "description": "Original parametric educational and technical primitives."
+    }
+  ]
+}
