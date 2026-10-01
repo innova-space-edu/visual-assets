@@ -1,5 +1,5 @@
 {
-  "version": "0.3.0",
+  "version": "0.4.0",
   "suite": "visual-assets",
   "policy": {
     "local_first": true,
@@ -37,6 +37,66 @@
       "path": "packs/procedural.json",
       "version": "0.1.0",
       "description": "Seeded deterministic patterns and grids."
+    },
+    {
+      "id": "shapes",
+      "path": "packs/shapes.json",
+      "version": "0.1.0",
+      "description": "General vector shapes, arrows and editor primitives."
+    },
+    {
+      "id": "math",
+      "path": "packs/math.json",
+      "version": "0.1.0",
+      "description": "Mathematics and geometry components."
+    },
+    {
+      "id": "chemistry",
+      "path": "packs/chemistry.json",
+      "version": "0.1.0",
+      "description": "Chemistry symbols and molecular primitives."
+    },
+    {
+      "id": "physics",
+      "path": "packs/physics.json",
+      "version": "0.1.0",
+      "description": "Physics diagrams and measurement symbols."
+    },
+    {
+      "id": "biology",
+      "path": "packs/biology.json",
+      "version": "0.1.0",
+      "description": "Biology and anatomy educational primitives."
+    },
+    {
+      "id": "ui",
+      "path": "packs/ui.json",
+      "version": "0.1.0",
+      "description": "User interface primitives for dashboards and mockups."
+    },
+    {
+      "id": "editorial",
+      "path": "packs/editorial.json",
+      "version": "0.1.0",
+      "description": "Editorial, educational, presentation and document layouts."
+    },
+    {
+      "id": "icons",
+      "path": "packs/icons.json",
+      "version": "0.1.0",
+      "description": "Original symbolic icons and editor affordances."
+    },
+    {
+      "id": "maps",
+      "path": "packs/maps.json",
+      "version": "0.1.0",
+      "description": "Local geospatial/editor map symbols without external tile dependency."
+    },
+    {
+      "id": "typography",
+      "path": "packs/typography.json",
+      "version": "0.1.0",
+      "description": "Typography scale and text style tokens."
     }
   ]
 }
