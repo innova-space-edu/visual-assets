@@ -1,0 +1,127 @@
+{
+  "id": "shapes",
+  "version": "0.1.0",
+  "license": "MIT",
+  "assets": [
+    {
+      "id": "shape.rect.rounded",
+      "name": "Rounded rectangle",
+      "category": "shape",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "shape.roundedRect",
+      "defaults": {
+        "width": 240,
+        "height": 140,
+        "radius": 18
+      },
+      "tags": [
+        "shape",
+        "rect",
+        "editor"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    },
+    {
+      "id": "shape.ellipse",
+      "name": "Ellipse",
+      "category": "shape",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "shape.ellipse",
+      "defaults": {
+        "rx": 90,
+        "ry": 60
+      },
+      "tags": [
+        "shape",
+        "ellipse",
+        "editor"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    },
+    {
+      "id": "shape.star",
+      "name": "Parametric star",
+      "category": "shape",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "shape.star",
+      "defaults": {
+        "points": 5,
+        "outerRadius": 80,
+        "innerRadius": 38
+      },
+      "tags": [
+        "shape",
+        "star",
+        "editor"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    },
+    {
+      "id": "diagram.arrow.straight",
+      "name": "Straight arrow",
+      "category": "diagram",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "diagram.arrow",
+      "defaults": {
+        "strokeWidth": 3
+      },
+      "tags": [
+        "arrow",
+        "connector",
+        "diagram"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    },
+    {
+      "id": "diagram.arrow.elbow",
+      "name": "Orthogonal connector",
+      "category": "diagram",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "diagram.connectorOrthogonal",
+      "defaults": {
+        "strokeWidth": 2
+      },
+      "tags": [
+        "connector",
+        "orthogonal",
+        "diagram"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    }
+  ]
+}
