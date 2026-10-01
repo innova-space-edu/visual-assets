@@ -1,0 +1,45 @@
+import registry from "../registry.json" with { type: "json" };
+import core from "../packs/core.json" with { type: "json" };
+
+const packs = new Map([["core",core]]);
+
+export function listPacks(){
+  return registry.packs.slice();
+}
+
+export function getAsset(id){
+  for(const pack of packs.values()){
+    const asset=pack.assets.find(function(x){return x.id===id;});
+    if(asset) return structuredClone(asset);
+  }
+  return null;
+}
+
+export function searchAssets(query,options={}){
+  const q=String(query||"").toLowerCase().trim();
+  const tags=Array.isArray(options.tags)?options.tags.map(function(x){return String(x).toLowerCase();}):[];
+  const out=[];
+  for(const pack of packs.values()){
+    for(const asset of pack.assets){
+      const hay=[asset.id,asset.name,asset.category].concat(asset.tags||[]).join(" ").toLowerCase();
+      if(q && !hay.includes(q)) continue;
+      if(tags.length && !tags.every(function(t){return (asset.tags||[]).map(function(x){return x.toLowerCase();}).includes(t);})) continue;
+      out.push(structuredClone(asset));
+    }
+  }
+  return out;
+}
+
+export function resolveAsset(id,params={}){
+  const asset=getAsset(id);
+  if(!asset) throw new Error("Unknown visual asset: "+id);
+  if(asset.kind==="parametric"){
+    return {assetId:id,kind:"parametric",generator:asset.generator,params:Object.assign({},asset.defaults||{},params),license:asset.license};
+  }
+  return Object.assign({},asset,{params:Object.assign({},params)});
+}
+
+export function registerRuntimePack(name,pack){
+  if(!name || !pack || !Array.isArray(pack.assets)) throw new Error("Invalid runtime pack");
+  packs.set(name,structuredClone(pack));
+}
