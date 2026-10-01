@@ -58,4 +58,12 @@ export function registerRuntimePack(name,pack){
   packs.set(name,structuredClone(pack));
 }
 
-export { recordAssetUsage, getAssetUsage, rankAssets, exportAssetLearning, importAssetLearning } from "./learning.js";
+export { recordAssetUsage, getAssetUsage, rankAssets, getAssetContextUsage, rankAssetsForContext, exportAssetLearning, importAssetLearning } from "./learning.js";
+
+export async function recommendAssetsForContext(query,context,options={}){
+  const matches=searchAssets(query,options);
+  const learning=await import("./learning.js");
+  const ranked=learning.rankAssetsForContext(matches.map(asset=>asset.id),context);
+  const byId=new Map(matches.map(asset=>[asset.id,asset]));
+  return ranked.map(row=>Object.assign({},byId.get(row.id),{learning:{score:row.score,globalScore:row.globalScore,contextScore:row.contextScore,contextSamples:row.contextSamples}}));
+}
