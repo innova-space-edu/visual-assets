@@ -2,8 +2,10 @@ import registry from "../registry.json" with { type: "json" };
 import core from "../packs/core.json" with { type: "json" };
 import science from "../packs/science.json" with { type: "json" };
 import layout from "../packs/layout.json" with { type: "json" };
+import technical from "../packs/technical.json" with { type: "json" };
+import procedural from "../packs/procedural.json" with { type: "json" };
 
-const packs = new Map([["core",core],["science",science],["layout",layout]]);
+const packs = new Map([["core",core],["science",science],["layout",layout],["technical",technical],["procedural",procedural]]);
 
 export function listPacks(){
   return registry.packs.slice();
