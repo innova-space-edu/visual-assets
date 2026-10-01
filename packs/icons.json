@@ -1,0 +1,117 @@
+{
+  "id": "icons",
+  "version": "0.1.0",
+  "license": "MIT",
+  "assets": [
+    {
+      "id": "icon.check",
+      "name": "Check icon",
+      "category": "icon",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "icon.check",
+      "defaults": {
+        "size": 24
+      },
+      "tags": [
+        "icon",
+        "check"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    },
+    {
+      "id": "icon.info",
+      "name": "Info icon",
+      "category": "icon",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "icon.info",
+      "defaults": {
+        "size": 24
+      },
+      "tags": [
+        "icon",
+        "info"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    },
+    {
+      "id": "icon.warning",
+      "name": "Warning icon",
+      "category": "icon",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "icon.warning",
+      "defaults": {
+        "size": 24
+      },
+      "tags": [
+        "icon",
+        "warning"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    },
+    {
+      "id": "icon.image",
+      "name": "Image icon",
+      "category": "icon",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "icon.image",
+      "defaults": {
+        "size": 24
+      },
+      "tags": [
+        "icon",
+        "image"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    },
+    {
+      "id": "icon.link",
+      "name": "Link icon",
+      "category": "icon",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "icon.link",
+      "defaults": {
+        "size": 24
+      },
+      "tags": [
+        "icon",
+        "link"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    }
+  ]
+}
