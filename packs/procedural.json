@@ -1,0 +1,9 @@
+{
+  "id":"procedural",
+  "version":"0.1.0",
+  "assets":[
+    {"id":"procedural.pattern.dots","name":"Seeded dot field","kind":"parametric","category":"procedural","version":"0.1.0","generator":"procedural.dotField","defaults":{"seed":"default","count":120,"radius":1.6},"tags":["procedural","pattern","dots"],"license":"MIT","provenance":{"source":"innova-space-original"}},
+    {"id":"procedural.pattern.stripes","name":"Seeded stripe field","kind":"parametric","category":"procedural","version":"0.1.0","generator":"procedural.stripePattern","defaults":{"gap":24,"angle":45},"tags":["procedural","pattern","stripes"],"license":"MIT","provenance":{"source":"innova-space-original"}},
+    {"id":"procedural.grid.modular","name":"Modular grid","kind":"parametric","category":"procedural","version":"0.1.0","generator":"procedural.modularGrid","defaults":{"cell":32,"majorEvery":4},"tags":["procedural","grid"],"license":"MIT","provenance":{"source":"innova-space-original"}}
+  ]
+}

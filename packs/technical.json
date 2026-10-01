@@ -1,0 +1,9 @@
+{
+  "id":"technical",
+  "version":"0.1.0",
+  "assets":[
+    {"id":"technical.dimension.linear","name":"Linear dimension","kind":"parametric","category":"technical","version":"0.1.0","generator":"technical.dimensionLinear","defaults":{"offset":24,"arrowSize":8},"tags":["technical","dimension","measurement"],"license":"MIT","provenance":{"source":"innova-space-original"}},
+    {"id":"technical.grid.blueprint","name":"Blueprint grid","kind":"parametric","category":"technical","version":"0.1.0","generator":"procedural.modularGrid","defaults":{"cell":32,"majorEvery":4},"tags":["technical","grid","blueprint"],"license":"MIT","provenance":{"source":"innova-space-original"}},
+    {"id":"architecture.door.swing","name":"Door swing symbol","kind":"parametric","category":"architecture","version":"0.1.0","generator":"architecture.doorSwing","defaults":{"width":90,"angle":90},"tags":["architecture","floorplan","door"],"license":"MIT","provenance":{"source":"innova-space-original"}}
+  ]
+}

@@ -13,3 +13,9 @@ test("searches semantic tags", function(){
   const found=searchAssets("chemistry");
   assert.ok(found.length>=2);
 });
+
+test("technical and procedural packs resolve",()=>{
+  assert.ok(getAsset("technical.dimension.linear"));
+  assert.ok(getAsset("procedural.pattern.dots"));
+  assert.equal(resolveAsset("procedural.pattern.dots",{seed:"abc"}).params.seed,"abc");
+});
