@@ -1,5 +1,5 @@
 {
-  "version": "0.2.0",
+  "version": "0.3.0",
   "suite": "visual-assets",
   "policy": {
     "local_first": true,
@@ -25,6 +25,18 @@
       "path": "packs/layout.json",
       "version": "0.1.0",
       "description": "Reusable layout and diagram components."
+    },
+    {
+      "id": "technical",
+      "path": "packs/technical.json",
+      "version": "0.1.0",
+      "description": "Technical drawing and architecture primitives."
+    },
+    {
+      "id": "procedural",
+      "path": "packs/procedural.json",
+      "version": "0.1.0",
+      "description": "Seeded deterministic patterns and grids."
     }
   ]
 }
