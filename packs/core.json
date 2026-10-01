@@ -1,0 +1,87 @@
+{
+  "id": "core",
+  "version": "0.1.0",
+  "license": "MIT",
+  "assets": [
+    {
+      "id": "math.axes.cartesian",
+      "name": "Cartesian axes",
+      "category": "mathematics",
+      "kind": "parametric",
+      "generator": "cartesianAxes",
+      "tags": ["math","axes","graph","coordinates"],
+      "defaults": {"step":40},
+      "license": {"spdx":"MIT","source":"Innova Space Education original"}
+    },
+    {
+      "id": "math.geometry.triangle",
+      "name": "Parametric triangle",
+      "category": "mathematics",
+      "kind": "parametric",
+      "generator": "polygon",
+      "tags": ["math","geometry","triangle"],
+      "defaults": {"points":[[0,0],[120,0],[60,100]]},
+      "license": {"spdx":"MIT","source":"Innova Space Education original"}
+    },
+    {
+      "id": "chemistry.atom",
+      "name": "2D atom",
+      "category": "chemistry",
+      "kind": "parametric",
+      "generator": "atom2D",
+      "tags": ["chemistry","atom","particle"],
+      "defaults": {"symbol":"C","radius":24},
+      "license": {"spdx":"MIT","source":"Innova Space Education original"}
+    },
+    {
+      "id": "chemistry.molecule",
+      "name": "2D molecule",
+      "category": "chemistry",
+      "kind": "parametric",
+      "generator": "molecule2D",
+      "tags": ["chemistry","molecule","bond"],
+      "defaults": {},
+      "license": {"spdx":"MIT","source":"Innova Space Education original"}
+    },
+    {
+      "id": "diagram.arrow",
+      "name": "Arrow connector",
+      "category": "diagram",
+      "kind": "parametric",
+      "generator": "arrow",
+      "tags": ["diagram","connector","arrow"],
+      "defaults": {"strokeWidth":2},
+      "license": {"spdx":"MIT","source":"Innova Space Education original"}
+    },
+    {
+      "id": "education.callout",
+      "name": "Educational callout",
+      "category": "education",
+      "kind": "parametric",
+      "generator": "callout",
+      "tags": ["education","infographic","callout","note"],
+      "defaults": {"radius":18,"padding":20},
+      "license": {"spdx":"MIT","source":"Innova Space Education original"}
+    },
+    {
+      "id": "science.lens.convex",
+      "name": "Convex lens schematic",
+      "category": "physics",
+      "kind": "parametric",
+      "generator": "convexLens",
+      "tags": ["physics","optics","lens"],
+      "defaults": {"width":52,"height":180},
+      "license": {"spdx":"MIT","source":"Innova Space Education original"}
+    },
+    {
+      "id": "technical.dimension-line",
+      "name": "Dimension line",
+      "category": "technical",
+      "kind": "parametric",
+      "generator": "dimensionLine",
+      "tags": ["technical","architecture","dimension"],
+      "defaults": {"unit":"mm"},
+      "license": {"spdx":"MIT","source":"Innova Space Education original"}
+    }
+  ]
+}
