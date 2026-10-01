@@ -1,7 +1,9 @@
 import registry from "../registry.json" with { type: "json" };
 import core from "../packs/core.json" with { type: "json" };
+import science from "../packs/science.json" with { type: "json" };
+import layout from "../packs/layout.json" with { type: "json" };
 
-const packs = new Map([["core",core]]);
+const packs = new Map([["core",core],["science",science],["layout",layout]]);
 
 export function listPacks(){
   return registry.packs.slice();

@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.0",
   "suite": "visual-assets",
   "policy": {
     "local_first": true,
@@ -13,6 +13,18 @@
       "path": "packs/core.json",
       "version": "0.1.0",
       "description": "Original parametric educational and technical primitives."
+    },
+    {
+      "id": "science",
+      "path": "packs/science.json",
+      "version": "0.1.0",
+      "description": "Parametric science primitives for physics, chemistry and biology."
+    },
+    {
+      "id": "layout",
+      "path": "packs/layout.json",
+      "version": "0.1.0",
+      "description": "Reusable layout and diagram components."
     }
   ]
 }

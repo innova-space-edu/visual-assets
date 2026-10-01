@@ -1,0 +1,10 @@
+{
+  "id":"science",
+  "version":"0.1.0",
+  "assets":[
+    {"id":"physics.vector.force","name":"Force vector","kind":"parametric","category":"physics","version":"0.1.0","generator":"physics.forceVector","defaults":{"magnitude":1,"angle":0,"label":"F"},"tags":["physics","vector","force"],"license":"MIT","provenance":{"source":"innova-space-original"}},
+    {"id":"physics.optics.thin-lens","name":"Thin lens","kind":"parametric","category":"physics/optics","version":"0.1.0","generator":"physics.thinLens","defaults":{"focalLength":120,"height":260},"tags":["physics","optics","lens"],"license":"MIT","provenance":{"source":"innova-space-original"}},
+    {"id":"chemistry.atom.bohr","name":"Bohr atom","kind":"parametric","category":"chemistry","version":"0.1.0","generator":"chemistry.bohrAtom","defaults":{"protons":6,"neutrons":6,"electrons":6},"tags":["chemistry","atom","bohr"],"license":"MIT","provenance":{"source":"innova-space-original"}},
+    {"id":"biology.cell.generic","name":"Generic cell diagram","kind":"parametric","category":"biology","version":"0.1.0","generator":"biology.cell","defaults":{"labels":true},"tags":["biology","cell","education"],"license":"MIT","provenance":{"source":"innova-space-original"}}
+  ]
+}
