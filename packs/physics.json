@@ -1,0 +1,124 @@
+{
+  "id": "physics",
+  "version": "0.1.0",
+  "license": "MIT",
+  "assets": [
+    {
+      "id": "physics.vector",
+      "name": "Vector arrow",
+      "category": "physics",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "physics.vector",
+      "defaults": {
+        "magnitude": 1,
+        "angle": 0,
+        "label": "F"
+      },
+      "tags": [
+        "physics",
+        "vector"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    },
+    {
+      "id": "physics.circuit.resistor",
+      "name": "Circuit resistor",
+      "category": "physics/electricity",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "physics.resistor",
+      "defaults": {
+        "resistance": "R"
+      },
+      "tags": [
+        "physics",
+        "circuit",
+        "resistor"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    },
+    {
+      "id": "physics.circuit.battery",
+      "name": "Circuit battery",
+      "category": "physics/electricity",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "physics.battery",
+      "defaults": {
+        "voltage": "V"
+      },
+      "tags": [
+        "physics",
+        "circuit",
+        "battery"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    },
+    {
+      "id": "physics.wave.sine",
+      "name": "Sine wave",
+      "category": "physics/waves",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "physics.wave",
+      "defaults": {
+        "amplitude": 1,
+        "wavelength": 1
+      },
+      "tags": [
+        "physics",
+        "wave",
+        "sine"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    },
+    {
+      "id": "physics.optics.ray",
+      "name": "Optical ray",
+      "category": "physics/optics",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "physics.ray",
+      "defaults": {
+        "arrow": true
+      },
+      "tags": [
+        "physics",
+        "optics",
+        "ray"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    }
+  ]
+}
