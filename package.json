@@ -1,0 +1,19 @@
+{
+  "name": "@innova-space/visual-assets",
+  "version": "0.1.0",
+  "description": "Local-first semantic and parametric asset registry for Visual Engine.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./registry": "./registry.json",
+    "./packs/core": "./packs/core.json"
+  },
+  "files": ["src","packs","schemas","registry.json","docs"],
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "check": "npm test"
+  },
+  "engines": { "node": ">=20" }
+}
