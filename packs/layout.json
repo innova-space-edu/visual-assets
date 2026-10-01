@@ -1,0 +1,9 @@
+{
+  "id":"layout",
+  "version":"0.1.0",
+  "assets":[
+    {"id":"layout.card.educational","name":"Educational card","kind":"template","category":"layout","version":"0.1.0","generator":"layout.card","defaults":{"radius":24,"padding":28},"tags":["layout","card","education"],"license":"MIT","provenance":{"source":"innova-space-original"}},
+    {"id":"layout.grid.infographic","name":"Infographic grid","kind":"template","category":"layout","version":"0.1.0","generator":"layout.infographicGrid","defaults":{"columns":3,"gap":24},"tags":["layout","grid","infographic"],"license":"MIT","provenance":{"source":"innova-space-original"}},
+    {"id":"diagram.connector.orthogonal","name":"Orthogonal connector","kind":"parametric","category":"diagram","version":"0.1.0","generator":"diagram.orthogonalConnector","defaults":{"arrowEnd":true},"tags":["diagram","connector","flowchart"],"license":"MIT","provenance":{"source":"innova-space-original"}}
+  ]
+}
