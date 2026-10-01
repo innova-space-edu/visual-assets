@@ -1,0 +1,126 @@
+{
+  "id": "math",
+  "version": "0.1.0",
+  "license": "MIT",
+  "assets": [
+    {
+      "id": "math.grid.cartesian",
+      "name": "Cartesian grid",
+      "category": "mathematics",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "math.cartesianGrid",
+      "defaults": {
+        "step": 40,
+        "labels": true
+      },
+      "tags": [
+        "math",
+        "grid",
+        "coordinates"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    },
+    {
+      "id": "math.geometry.circle",
+      "name": "Circle geometry",
+      "category": "mathematics",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "math.circle",
+      "defaults": {
+        "radius": 90
+      },
+      "tags": [
+        "math",
+        "circle",
+        "geometry"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    },
+    {
+      "id": "math.geometry.angle",
+      "name": "Angle marker",
+      "category": "mathematics",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "math.angle",
+      "defaults": {
+        "degrees": 45,
+        "radius": 48
+      },
+      "tags": [
+        "math",
+        "angle",
+        "geometry"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    },
+    {
+      "id": "math.geometry.homothety",
+      "name": "Homothety construction",
+      "category": "mathematics",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "math.homothety",
+      "defaults": {
+        "k": 2
+      },
+      "tags": [
+        "math",
+        "homothety",
+        "transformation"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    },
+    {
+      "id": "math.numberline",
+      "name": "Number line",
+      "category": "mathematics",
+      "kind": "parametric",
+      "version": "0.1.0",
+      "generator": "math.numberLine",
+      "defaults": {
+        "min": -5,
+        "max": 5,
+        "step": 1
+      },
+      "tags": [
+        "math",
+        "number line",
+        "algebra"
+      ],
+      "license": {
+        "spdx": "MIT",
+        "source": "Innova Space Education original"
+      },
+      "provenance": {
+        "source": "innova-space-original"
+      }
+    }
+  ]
+}
